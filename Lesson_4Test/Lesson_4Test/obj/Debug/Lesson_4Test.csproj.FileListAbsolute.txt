@@ -4,3 +4,6 @@ c:\users\iryna\documents\visual studio 2015\Projects\Lesson_4Test\Lesson_4Test\b
 c:\users\iryna\documents\visual studio 2015\Projects\Lesson_4Test\Lesson_4Test\obj\Debug\Lesson_4Test.csprojResolveAssemblyReference.cache
 c:\users\iryna\documents\visual studio 2015\Projects\Lesson_4Test\Lesson_4Test\obj\Debug\Lesson_4Test.exe
 c:\users\iryna\documents\visual studio 2015\Projects\Lesson_4Test\Lesson_4Test\obj\Debug\Lesson_4Test.pdb
+C:\CSharp\Lesson_4Test\Lesson_4Test\bin\Debug\Lesson_4Test.exe.config
+C:\CSharp\Lesson_4Test\Lesson_4Test\obj\Debug\Lesson_4Test.exe
+C:\CSharp\Lesson_4Test\Lesson_4Test\obj\Debug\Lesson_4Test.pdb

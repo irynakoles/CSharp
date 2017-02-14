@@ -7,15 +7,15 @@ namespace Lesson_4Test
         static void Main(string[] args)
         {
             ArrayInitializator initialize = new ArrayInitializator();
-            //BubleSort
+            //BubbleSort
             int arraySize = initialize.ReadArraySize();
             int[] array = initialize.ReadArrayNumbers(arraySize);
-            BubbleSorter bubleSort = new BubbleSorter();
-            bubleSort.PrintArray(array);
-            bubleSort.BubbleSort(array);
-            bubleSort.PrintSortedArray(array);
+            BubbleSorter bubbleSort = new BubbleSorter();
+            bubbleSort.PrintArray(array);
+            bubbleSort.BubbleSort(array);
+            bubbleSort.PrintSortedArray(array);
             
-            //Inserion Sort
+            //Insertion Sort
             int secondArraySize= initialize.ReadArraySize();
             int[] secondArray = initialize.ReadArrayNumbers(secondArraySize);
             InsertionSorter insertionSort = new InsertionSorter();
