@@ -89,9 +89,7 @@ namespace Lesson_3
                     min = array[i];
             }
             return min;
-        }
-        
+        }   
     }
-
 }
       
