@@ -13,14 +13,14 @@ namespace Lesson_3
    
         }
 
-        //Array size
+        //Array size 
         static int ReadArraySize()
         {
             string userInput;
             int arraySize;
             Console.WriteLine("Please, enter size of array. ");
             userInput = Console.ReadLine();
-            if (!Int32.TryParse(userInput, out arraySize))
+            if(!Int32.TryParse(userInput, out arraySize))
             {
                 Console.WriteLine("Please, Enter the correct number");
                 Console.ReadKey();
@@ -32,14 +32,21 @@ namespace Lesson_3
         //Fill the array
         static int [] ReadArrayNumbers(int arraySize)
         {
-            
             int[] array = new int[arraySize];
-
             Console.WriteLine("Please, enter the numbers to array.");
             for (int i = 0; i < array.Length; i++)
             {
-                array[i] = int.Parse(Console.ReadLine());
-
+                string userInput = Console.ReadLine();
+                int numbers;
+                if (int.TryParse(userInput, out numbers))
+                    {
+                        array[i] = numbers;
+                    }
+                else
+                    {
+                        Console.WriteLine("Please, enter the correct numbers.");
+                        i--;
+                    }
             }
             return array;  
         }
