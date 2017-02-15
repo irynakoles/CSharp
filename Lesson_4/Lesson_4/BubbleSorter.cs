@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lesson_4Test
+namespace Lesson_4
 {
-    public class BubbleSorter
+    class BubbleSorter
     {
         //Sorting Array
         public void BubbleSort(int[] array)
@@ -32,18 +32,8 @@ namespace Lesson_4Test
             array[j] = temp;
         }
 
-        //Print array before sorting
-        public void PrintArray(int[] array)
-        {
-            Console.WriteLine("Array before sorting: ");
-            for(int i=0; i<array.Length; i++)
-            {
-                Console.WriteLine(array[i]);
-            }
-            Console.ReadKey();
-        }
         //Print Sorted Array
-        public void PrintSortedArray(int[] array)
+        public void PrintArray(int[] array)
         {
             Console.WriteLine("Array after sorting buble sort: ");
             for (int i = 0; i < array.Length; i++)
@@ -54,4 +44,5 @@ namespace Lesson_4Test
         }
 
     }
+}
 }

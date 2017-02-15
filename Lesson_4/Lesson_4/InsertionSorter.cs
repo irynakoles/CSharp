@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-
-namespace Lesson_4Test
+namespace Lesson_4
 {
-   public class InsertionSorter
+    public class InsertionSorter
     {
         //Soring array -Insertion sort
         public void InserionSort(int[] array)
@@ -14,9 +17,10 @@ namespace Lesson_4Test
                 int j = i;
                 while (j > 0 && num < array[j - 1])
                 {
-                    Swap(array, j, j - 1);
-                    j = j - 1;
+                    array[j] = array[j - 1];
+                    j--;
                 }
+                array[j] = num;
             }
         }
 
@@ -29,18 +33,8 @@ namespace Lesson_4Test
             array[j] = temp;
         }
 
-        //Print array before sorting
-        public void PrintArray(int[] array)
-        {
-            Console.WriteLine("Array before sorting: ");
-            for (int i = 0; i < array.Length; i++)
-            {
-                Console.WriteLine(array[i]);
-            }
-            Console.ReadKey();
-        } 
         //Print Sorted Array
-        public void PrintSortedArray(int[] array)
+        public void PrintArray(int[] array)
         {
             Console.WriteLine("Array after sorting inserion sort: ");
             for (int i = 0; i < array.Length; i++)
@@ -51,3 +45,4 @@ namespace Lesson_4Test
         }
     }
 }
+
