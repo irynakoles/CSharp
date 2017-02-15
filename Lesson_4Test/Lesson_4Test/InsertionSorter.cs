@@ -14,10 +14,10 @@ namespace Lesson_4Test
                 int j = i;
                 while (j > 0 && num < array[j - 1])
                 {
-                    array[j] = array[j - 1];
-                    j--;
+                    Swap(array, j, j - 1);
+                    j = j - 1;
                 }
-                array[j] = num;
+               // array[j] = num;
             }
         }
 
