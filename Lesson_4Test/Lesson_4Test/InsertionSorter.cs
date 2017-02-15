@@ -17,7 +17,6 @@ namespace Lesson_4Test
                     Swap(array, j, j - 1);
                     j = j - 1;
                 }
-               // array[j] = num;
             }
         }
 
