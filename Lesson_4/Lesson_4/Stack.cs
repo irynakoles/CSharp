@@ -32,10 +32,10 @@ namespace Lesson_4
                 Console.WriteLine("Stack is Full!");
             }
         }
-        //Remove element frm stack
+        //Remove element from stack
         public int Pop()
-        {   
-            if(!IsEmpty())
+        {
+            if (!IsEmpty())
             {
                 Console.WriteLine("Pop element: {0}", top);
                 return stack[top--];
@@ -50,7 +50,7 @@ namespace Lesson_4
         {
             return stack[top];
         }
-        // check if stack empty
+
         public bool IsEmpty()
         {
             if (top == 0)
@@ -62,7 +62,7 @@ namespace Lesson_4
                 return false;
             }
         }
-        //check if stack i
+
         public bool IsFull()
         {
             if (top == size)
@@ -76,14 +76,13 @@ namespace Lesson_4
         }
         public void Print()
         {
-                Console.WriteLine("Stack: ");
-                for(int i=0; i <size; i++)
-                {
-                    Console.WriteLine(stack[i]);
-                }
-                Console.ReadKey();
+            Console.WriteLine("Stack: ");
+            for (int i = 0; i < size; i++)
+            {
+                Console.WriteLine(stack[i]);
             }
+            Console.ReadKey();
         }
-        
     }
+}
 

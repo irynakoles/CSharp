@@ -14,6 +14,7 @@ namespace Lesson_4
         public int end;
         public int numberOfElements;
 
+        
         public Queue(int size)
         {
             this.size = size;
@@ -22,6 +23,7 @@ namespace Lesson_4
             end = -1;
             numberOfElements = 0;
         }
+        // Insert element to the end of queue
         public void Enqueue(int i)
         {
             Console.WriteLine("Enqueue: {0}", i);
@@ -30,7 +32,7 @@ namespace Lesson_4
             queue[++end] = i;
             numberOfElements++;
         }
-
+        // Extraction the element from begin of the queue
         public int Dequeue()
         {
             int temp = queue[begin++];
