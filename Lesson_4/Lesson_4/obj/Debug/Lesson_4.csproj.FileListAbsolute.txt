@@ -1,0 +1,7 @@
+c:\users\iryna\documents\visual studio 2015\Projects\Lesson_4\Lesson_4\bin\Debug\Lesson_4.exe.config
+C:\CSharp\Lesson_4\Lesson_4\bin\Debug\Lesson_4.exe.config
+C:\CSharp\Lesson_4\Lesson_4\bin\Debug\Lesson_4.exe
+C:\CSharp\Lesson_4\Lesson_4\bin\Debug\Lesson_4.pdb
+C:\CSharp\Lesson_4\Lesson_4\obj\Debug\Lesson_4.csprojResolveAssemblyReference.cache
+C:\CSharp\Lesson_4\Lesson_4\obj\Debug\Lesson_4.exe
+C:\CSharp\Lesson_4\Lesson_4\obj\Debug\Lesson_4.pdb
