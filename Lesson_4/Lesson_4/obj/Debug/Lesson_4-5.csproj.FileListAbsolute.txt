@@ -1,0 +1,6 @@
+C:\CSharp\Lesson_4\Lesson_4\bin\Debug\Lesson_4.exe.config
+C:\CSharp\Lesson_4\Lesson_4\obj\Debug\Lesson_4.exe
+C:\CSharp\Lesson_4\Lesson_4\obj\Debug\Lesson_4.pdb
+C:\CSharp\Lesson_4\Lesson_4\bin\Debug\Lesson_4.exe
+C:\CSharp\Lesson_4\Lesson_4\bin\Debug\Lesson_4.pdb
+C:\CSharp\Lesson_4\Lesson_4\obj\Debug\Lesson_4-5.csprojResolveAssemblyReference.cache

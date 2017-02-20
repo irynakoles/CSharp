@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lesson_4
 {
@@ -26,6 +22,7 @@ namespace Lesson_4
             insertionSort.InsertionSort(secondArray);
             insertionSort.PrintSortedArray(secondArray);
 
+            Console.WriteLine(" ");
             Stack stack = new Stack(5);
             stack.Push(1);
             stack.Push(2);
@@ -42,13 +39,14 @@ namespace Lesson_4
             queue.Enqueue(1);
             queue.Enqueue(2);
             queue.Enqueue(3);
+            queue.Dequeue();
             queue.Enqueue(4);
             queue.Enqueue(5);
             queue.Enqueue(6);
             queue.Enqueue(7);
             queue.Enqueue(8);
             queue.PrintQueue();
-           
+
             Console.ReadKey();
         }
     }

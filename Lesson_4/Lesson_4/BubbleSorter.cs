@@ -1,28 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lesson_4
 {
     class BubbleSorter
     {
+        bool swapped = true;
+
         //Sorting Array
         public void BubbleSort(int[] array)
         {
-            for (int i = 0; i < array.Length - 1; i++)
+            while (swapped)
             {
-                for (int j = i + 1; j < array.Length; j++)
+                swapped = false;
+                for (int i = 0; i < array.Length - 1; i++)
                 {
-                    if (array[i] > array[j])
+                    for (int j = i + 1; j < array.Length; j++)
                     {
-                        Swap(array, i, j);
+                        if (array[i] > array[j])
+                        {
+                            Swap(array, i, j);
+                            swapped = true;
+                        }
                     }
                 }
             }
         }
-
         //Swap numbers
         public void Swap(int[] array, int i, int j)
         {

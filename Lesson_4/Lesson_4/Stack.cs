@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lesson_4
 {
@@ -18,7 +14,7 @@ namespace Lesson_4
             stack = new int[size];
             top = 0;
         }
-        //Add Element to stack
+        //Add element to stack
         public void Push(int i)
         {
             if (!IsFull())

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lesson_4
 {
@@ -14,7 +10,6 @@ namespace Lesson_4
         public int end;
         public int numberOfElements;
 
-        
         public Queue(int size)
         {
             this.size = size;
@@ -36,9 +31,10 @@ namespace Lesson_4
         public int Dequeue()
         {
             int temp = queue[begin++];
-            if (!IsEmpty())
+            if (begin == size)
                 begin = 0;
-            numberOfElements--;
+                numberOfElements--;
+            Console.WriteLine("Dequeue: {0}", temp);
             return temp;
 
         }
@@ -72,6 +68,7 @@ namespace Lesson_4
             {
                 Console.WriteLine(queue[i]);
             }
+            
             Console.ReadKey();
         }
     }

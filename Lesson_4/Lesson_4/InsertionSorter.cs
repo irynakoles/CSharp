@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lesson_4
 {
@@ -11,14 +7,14 @@ namespace Lesson_4
         //Soring array -Insertion sort
         public void InsertionSort(int[] array)
         {
-            for (int i = 0; i < array.Length - 1; i++)
+            for (int i = 0; i < array.Length; i++)
             {
-                for (int j = i + 1; j < array.Length; j++)
+                int num = array[i];
+                int j = i;
+                while (j > 0 && num < array[j - 1])
                 {
-                    if (array[i] > array[j])
-                    {
-                        Swap(array, i, j);
-                    }
+                    Swap(array, j, j - 1);
+                    j--;
                 }
             }
         }
@@ -39,6 +35,7 @@ namespace Lesson_4
             {
                 Console.WriteLine(array[i]);
             }
+            Console.ReadKey();
         }
         //Print Sorted Array
         public void PrintSortedArray(int[] array)
@@ -48,6 +45,7 @@ namespace Lesson_4
             {
                 Console.WriteLine(array[i]);
             }
+            
             Console.ReadKey();
         }
     }
