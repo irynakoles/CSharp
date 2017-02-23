@@ -30,7 +30,7 @@ namespace Lesson_7
 
         public void PrintSorterAlg()
         {
-            Console.WriteLine("Sorter alg: {0}", sortAlg);
+            Console.WriteLine("Sorter By: {0}", sortAlg);
         }
         public void Swap(ref T i, ref T j)
         {

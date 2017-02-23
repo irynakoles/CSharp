@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lesson_7
 {
-    interface IMyStack<T>
+    interface IMyStack<T>: IBuffer<T>
     {
+        void Push(T i);
+        T Pop();
     }
 }

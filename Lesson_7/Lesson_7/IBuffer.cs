@@ -8,9 +8,9 @@ namespace Lesson_7
 {
     interface IBuffer<T>: IPrintable
     {
-        void IsEmpty();
-        void IsFull();
-        void Peek();
+        bool IsEmpty();
+        bool IsFull();
+        T Peek();
 
     }
 }
