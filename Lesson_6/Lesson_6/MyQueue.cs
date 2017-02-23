@@ -22,6 +22,7 @@ namespace Lesson_6
             end = -1;
             numberOfElements = 0;
         }
+
         public void Enqueue(int i)
         {
             Console.WriteLine("Enqueue: {0}", i);
@@ -41,6 +42,7 @@ namespace Lesson_6
             return temp;
 
         }
+
         public override bool IsEmpty()
         {
             if (numberOfElements == 0)

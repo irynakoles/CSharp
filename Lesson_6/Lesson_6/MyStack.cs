@@ -18,6 +18,7 @@ namespace Lesson_6
             stack = new int[size];
             top = 0;
         }
+
         public override bool IsEmpty()
         {
             if (top == 0)
@@ -55,6 +56,7 @@ namespace Lesson_6
                 Console.WriteLine("Stack is Full!");
             }
         }
+
         public int Pop()
         {
             if (!IsEmpty())
@@ -68,6 +70,7 @@ namespace Lesson_6
                 return 0;
             }
         }
+
         public int Peek()
         {
             return stack[top];

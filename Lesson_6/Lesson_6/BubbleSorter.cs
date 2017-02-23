@@ -13,6 +13,7 @@ namespace Lesson_6
         }
 
         bool swapped= true;
+
         public override void Sort()
         {
             while (swapped)

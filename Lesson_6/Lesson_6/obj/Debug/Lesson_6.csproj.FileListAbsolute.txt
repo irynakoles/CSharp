@@ -4,3 +4,6 @@ C:\Users\iryna\Documents\Visual Studio 2015\Projects\Lesson_6\Lesson_6\bin\Debug
 C:\Users\iryna\Documents\Visual Studio 2015\Projects\Lesson_6\Lesson_6\bin\Debug\Lesson_6.pdb
 C:\Users\iryna\Documents\Visual Studio 2015\Projects\Lesson_6\Lesson_6\obj\Debug\Lesson_6.exe
 C:\Users\iryna\Documents\Visual Studio 2015\Projects\Lesson_6\Lesson_6\obj\Debug\Lesson_6.pdb
+C:\CSharp\Lesson_6\Lesson_6\bin\Debug\Lesson_6.exe.config
+C:\CSharp\Lesson_6\Lesson_6\obj\Debug\Lesson_6.exe
+C:\CSharp\Lesson_6\Lesson_6\obj\Debug\Lesson_6.pdb

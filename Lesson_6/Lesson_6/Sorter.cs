@@ -16,6 +16,7 @@ namespace Lesson_6
             this.array = array;
             array = new int[size];
         }
+
         //Will be override in bubble sorter and Insertion sorter
         public virtual void Sort()
         { }

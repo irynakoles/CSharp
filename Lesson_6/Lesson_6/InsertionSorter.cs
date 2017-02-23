@@ -11,6 +11,7 @@ namespace Lesson_6
         public InsertionSorter(int[] array) : base(array)
         {
         }
+
         public override void Sort()
         {
             for (int i = 0; i < array.Length; i++)
