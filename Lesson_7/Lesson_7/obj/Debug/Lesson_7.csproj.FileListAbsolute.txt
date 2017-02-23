@@ -1,0 +1,6 @@
+c:\users\iryna\documents\visual studio 2015\Projects\Lesson_7\Lesson_7\bin\Debug\Lesson_7.exe.config
+C:\Users\iryna\Documents\Visual Studio 2015\Projects\Lesson_7\Lesson_7\bin\Debug\Lesson_7.exe
+C:\Users\iryna\Documents\Visual Studio 2015\Projects\Lesson_7\Lesson_7\bin\Debug\Lesson_7.pdb
+C:\Users\iryna\Documents\Visual Studio 2015\Projects\Lesson_7\Lesson_7\obj\Debug\Lesson_7.csprojResolveAssemblyReference.cache
+C:\Users\iryna\Documents\Visual Studio 2015\Projects\Lesson_7\Lesson_7\obj\Debug\Lesson_7.exe
+C:\Users\iryna\Documents\Visual Studio 2015\Projects\Lesson_7\Lesson_7\obj\Debug\Lesson_7.pdb

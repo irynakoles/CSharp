@@ -23,20 +23,20 @@ namespace Lesson_6
             insertionSort.Sort();
             insertionSort.PrintSortedArray(secondArray);
 
-            MyStack stack = new MyStack(5);
-            stack.Push(1);
-            stack.Push(2);
-            stack.Push(3);
-            stack.Push(4);
-            stack.Pop();
-            stack.Pop();
-            stack.Pop();
-            stack.Pop();
-            stack.Pop();
-            stack.Pop();
-            stack.Push(5);
-            stack.Push(6);
-            stack.Print();
+            //MyStack stack = new MyStack(5);
+            //stack.Push(1);
+            //stack.Push(2);
+            //stack.Push(3);
+            //stack.Push(4);
+            //stack.Pop();
+            //stack.Pop();
+            //stack.Pop();
+            //stack.Pop();
+            //stack.Pop();
+            //stack.Pop();
+            //stack.Push(5);
+            //stack.Push(6);
+            //stack.Print();
 
             MyQueue queue = new MyQueue(5);
             queue.Enqueue(1);
