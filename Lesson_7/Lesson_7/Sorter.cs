@@ -30,6 +30,7 @@ namespace Lesson_7
         //Will be override in BubbleSorter and InsertionSorter
         public abstract void Sort();
 
+        //Print name of algorithm that was used
         public void PrintSorterAlgorithm()
         {
             Console.WriteLine("Sorted By: {0}", sortType);
