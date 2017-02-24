@@ -14,7 +14,7 @@ namespace Lesson_7
         bool swapped = true;
         public override void Sort()
         {
-            PrintSorterAlg();
+            PrintSorterAlgorithm();
             while (swapped)
             {
                 swapped = false;

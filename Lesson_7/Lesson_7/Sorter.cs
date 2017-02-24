@@ -9,13 +9,14 @@ namespace Lesson_7
      public abstract class Sorter<T> : ISorter<T>
     {
         public T [] array;
-        // public int size;
-        string sortAlg;
-        public Sorter(T[] array, string sortAlg)
+        string sortType;
+
+        public Sorter(T[] array, string sortType)
         {
             this.array = array;
-            this.sortAlg = sortAlg;
+            this.sortType = sortType;
         }
+
         public void Print()
         {
             Console.WriteLine("Array : ");
@@ -26,19 +27,20 @@ namespace Lesson_7
             Console.ReadKey();
         }
 
+        //Will be override in BubbleSorter and InsertionSorter
         public abstract void Sort();
 
-        public void PrintSorterAlg()
+        public void PrintSorterAlgorithm()
         {
-            Console.WriteLine("Sorter By: {0}", sortAlg);
+            Console.WriteLine("Sorted By: {0}", sortType);
         }
+
         public void Swap(ref T i, ref T j)
         {
             T temp;
             temp = i;
             i = j;
             j = temp;
-
         }
     }
 }

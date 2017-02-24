@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lesson_7
 {
-    interface IMyQueue
+    interface IMyQueue<T>:IBuffer<T>
     {
+        void Enqueue(T i);
+        T Dequeue();
     }
 }

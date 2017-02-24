@@ -14,7 +14,7 @@ namespace Lesson_7
 
         public override void Sort()
         {
-            PrintSorterAlg();
+            PrintSorterAlgorithm();
             for (int i = 0; i < array.Length; i++)
             {
                 T num = array[i];

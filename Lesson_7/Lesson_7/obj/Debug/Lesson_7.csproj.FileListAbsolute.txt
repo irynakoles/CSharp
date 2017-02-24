@@ -4,3 +4,9 @@ C:\Users\iryna\Documents\Visual Studio 2015\Projects\Lesson_7\Lesson_7\bin\Debug
 C:\Users\iryna\Documents\Visual Studio 2015\Projects\Lesson_7\Lesson_7\obj\Debug\Lesson_7.csprojResolveAssemblyReference.cache
 C:\Users\iryna\Documents\Visual Studio 2015\Projects\Lesson_7\Lesson_7\obj\Debug\Lesson_7.exe
 C:\Users\iryna\Documents\Visual Studio 2015\Projects\Lesson_7\Lesson_7\obj\Debug\Lesson_7.pdb
+C:\CSharp\Lesson_7\Lesson_7\bin\Debug\Lesson_7.exe.config
+C:\CSharp\Lesson_7\Lesson_7\obj\Debug\Lesson_7.exe
+C:\CSharp\Lesson_7\Lesson_7\obj\Debug\Lesson_7.pdb
+C:\CSharp\Lesson_7\Lesson_7\obj\Debug\Lesson_7.csprojResolveAssemblyReference.cache
+C:\CSharp\Lesson_7\Lesson_7\bin\Debug\Lesson_7.exe
+C:\CSharp\Lesson_7\Lesson_7\bin\Debug\Lesson_7.pdb

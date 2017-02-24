@@ -10,7 +10,6 @@ namespace Lesson_7
     {
         bool IsEmpty();
         bool IsFull();
-        T Peek();
-
+     
     }
 }

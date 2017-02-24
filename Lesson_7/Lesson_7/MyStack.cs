@@ -6,18 +6,17 @@ using System.Threading.Tasks;
 
 namespace Lesson_7
 {
-    class MyStack<T> : Buffer<T>
+    class MyStack<T> : Buffer<T>, IMyStack<T>
     {
-        public int size;
         public T[] stack;
         public int top;
 
-        public MyStack(int size)
+        public MyStack(int size):base(size)
         {
-            this.size = size;
             stack = new T[size];
             top = 0;
         }
+
         public override bool IsEmpty()
         {
             if (top == 0)
@@ -42,12 +41,7 @@ namespace Lesson_7
             }
         }
 
-        public override T Peek()
-        {
-            return stack[top];
-        }
-
-        public override T Pop()
+        public T Pop()
         {
             if (!IsEmpty())
             {
@@ -71,7 +65,7 @@ namespace Lesson_7
             Console.ReadKey();
         }
 
-        public override void Push(T i )
+        public void Push(T i )
         { 
             if (!IsFull())
             {
