@@ -8,15 +8,13 @@ namespace Lesson_6
 {
     class MyQueue : Buffer
     {
-        public int size;
         public int[] queue;
         public int begin;
         public int end;
         public int numberOfElements;
 
-        public MyQueue(int size)
+        public MyQueue(int size):base(size)
         {
-            this.size = size;
             queue = new int[size];
             begin = 0;
             end = -1;

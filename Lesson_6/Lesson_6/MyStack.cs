@@ -8,13 +8,11 @@ namespace Lesson_6
 {
     class MyStack : Buffer
     {
-        public int size;
         public int[] stack;
         public int top;
 
-        public MyStack(int size)
+        public MyStack(int size):base(size)
         {
-            this.size = size;
             stack = new int[size];
             top = 0;
         }
