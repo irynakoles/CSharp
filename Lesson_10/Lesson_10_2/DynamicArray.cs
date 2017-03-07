@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lesson_10
+namespace Lesson_10_2
 {
     public class DynamicArray<T>
     {
-        private int capacity;
-        private int size;
+        protected int size;
+        protected int capacity;
         private T[] array;
 
         public DynamicArray()
@@ -27,7 +27,7 @@ namespace Lesson_10
             }
             size--;
         }
-        
+
         public void Add(T i)
         {
             if (size == (capacity-1))
@@ -40,13 +40,13 @@ namespace Lesson_10
 
         public void Insert(T insert, int index)
         {
-            if (size == (capacity - 1))
+            if (size == (capacity-1))
             {
-                IncreaseCapacity();
+                IncreaseCapacity();   
             }
             for (int i = index; i < size; i++)
             {
-                array[i] = array[i + 1];
+                array[i+1] = array[i];
 
             }
             array[index] = insert;
@@ -69,6 +69,7 @@ namespace Lesson_10
             }
             array = secondArray;
         }
+
         public int GetSize()
         {
             return size;
@@ -80,3 +81,4 @@ namespace Lesson_10
         }
     }
 }
+
