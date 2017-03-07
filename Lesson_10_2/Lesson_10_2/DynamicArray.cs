@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Lesson_10_2
 {
+    
     public class DynamicArray<T>
     {
         protected int size;
         protected int capacity;
         private T[] array;
-
+       
         public DynamicArray()
         {
             capacity = 1;
