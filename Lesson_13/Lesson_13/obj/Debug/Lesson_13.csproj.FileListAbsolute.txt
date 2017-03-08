@@ -4,3 +4,9 @@ c:\users\iryna\documents\visual studio 2015\Projects\Lesson_13\Lesson_13\bin\Deb
 c:\users\iryna\documents\visual studio 2015\Projects\Lesson_13\Lesson_13\obj\Debug\Lesson_13.csprojResolveAssemblyReference.cache
 c:\users\iryna\documents\visual studio 2015\Projects\Lesson_13\Lesson_13\obj\Debug\Lesson_13.exe
 c:\users\iryna\documents\visual studio 2015\Projects\Lesson_13\Lesson_13\obj\Debug\Lesson_13.pdb
+C:\CSharp\Lesson_13\Lesson_13\bin\Debug\Lesson_13.exe.config
+C:\CSharp\Lesson_13\Lesson_13\obj\Debug\Lesson_13.exe
+C:\CSharp\Lesson_13\Lesson_13\obj\Debug\Lesson_13.pdb
+C:\CSharp\Lesson_13\Lesson_13\bin\Debug\Lesson_13.exe
+C:\CSharp\Lesson_13\Lesson_13\bin\Debug\Lesson_13.pdb
+C:\CSharp\Lesson_13\Lesson_13\obj\Debug\Lesson_13.csprojResolveAssemblyReference.cache

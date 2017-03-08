@@ -6,16 +6,31 @@ using System.Threading.Tasks;
 
 namespace Lesson_13
 {
+    public delegate void StackStatusDelegate();
+
     class DynamicStack<T>
     {
 
         private DynamicArray<T> stack;
+        public event StackStatusDelegate StackIsFullEvent;
+        public event StackStatusDelegate StackIsEmptyEvent;
 
         public DynamicStack()
         {
             stack = new DynamicArray<T>();
+            StackIsEmptyEvent += StackIsEmpty;
+            StackIsFullEvent += StackIsFull;
+
         }
 
+        public static void StackIsEmpty()
+        {
+            Console.WriteLine("Stack is empty!");
+        }
+        public void StackIsFull()
+        {
+            Console.WriteLine("Stack is empty!");
+        }
         public void Push(T value)
         {
             stack.Add(value);
@@ -23,9 +38,13 @@ namespace Lesson_13
 
         public T Pop()
         {
-            T value = stack.Get(stack.GetSize() - 1);
-            stack.Remove(stack.GetSize() - 1);
-            return value;
+            if (!IsEmpty())
+            {
+                T value = stack.Get(stack.GetSize() - 1);
+                stack.Remove(stack.GetSize() - 1);
+                return value;
+            }
+            return default(T);
         }
 
         public void PrintStack()
@@ -36,7 +55,7 @@ namespace Lesson_13
                 Console.WriteLine(stack.Get(i));
             }
         }
-
+        // comment
         public void PrintCapacity()
         {
             Console.WriteLine($"Capacity: {stack.GetCapacity()}");
@@ -49,12 +68,14 @@ namespace Lesson_13
 
         public bool IsFull()
         {
+            StackIsFullEvent();
             return stack.GetCapacity() == stack.GetSize();
 
         }
 
         public bool IsEmpty()
         {
+            StackIsEmptyEvent();
             return stack.GetSize() == 0;
 
         }

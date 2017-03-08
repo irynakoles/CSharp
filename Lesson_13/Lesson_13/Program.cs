@@ -25,7 +25,7 @@ namespace Lesson_13
             stack.PrintCapacity();
             stack.PrintSize();
             stack.PrintStack();
-
+          
             DynamicQueue<int> queue = new DynamicQueue<int>();
 
             queue.PrintCapacity();
@@ -38,7 +38,7 @@ namespace Lesson_13
             queue.PrintQueue();
             queue.Dequeue();
             queue.PrintQueue();
-
+            
             Console.ReadKey();
         }
     }
