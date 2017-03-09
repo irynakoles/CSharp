@@ -1,0 +1,6 @@
+C:\Users\IKolesnikova\Documents\Visual Studio 2015\Projects\Lesson_11\Lesson_11\bin\Debug\Lesson_11.exe.config
+C:\Users\IKolesnikova\Documents\Visual Studio 2015\Projects\Lesson_11\Lesson_11\bin\Debug\Lesson_11.exe
+C:\Users\IKolesnikova\Documents\Visual Studio 2015\Projects\Lesson_11\Lesson_11\bin\Debug\Lesson_11.pdb
+C:\Users\IKolesnikova\Documents\Visual Studio 2015\Projects\Lesson_11\Lesson_11\obj\Debug\Lesson_11.csprojResolveAssemblyReference.cache
+C:\Users\IKolesnikova\Documents\Visual Studio 2015\Projects\Lesson_11\Lesson_11\obj\Debug\Lesson_11.exe
+C:\Users\IKolesnikova\Documents\Visual Studio 2015\Projects\Lesson_11\Lesson_11\obj\Debug\Lesson_11.pdb
