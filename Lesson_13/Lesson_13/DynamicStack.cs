@@ -17,6 +17,7 @@ namespace Lesson_13
 
         public DynamicStack()
         {
+
             stack = new DynamicArray<T>();
             StackIsEmptyEvent += StackIsEmpty;
             StackIsFullEvent += StackIsFull;
@@ -27,10 +28,12 @@ namespace Lesson_13
         {
             Console.WriteLine("Stack is empty!");
         }
-        public void StackIsFull()
+
+        public static void StackIsFull()
         {
             Console.WriteLine("Stack is empty!");
         }
+
         public void Push(T value)
         {
             stack.Add(value);
@@ -55,7 +58,7 @@ namespace Lesson_13
                 Console.WriteLine(stack.Get(i));
             }
         }
-        // comment
+        
         public void PrintCapacity()
         {
             Console.WriteLine($"Capacity: {stack.GetCapacity()}");

@@ -21,14 +21,16 @@ namespace Lesson_13
             QueueIsEmptyEvent += QueueIsEmpty;
         }
 
-        public void QueueIsEmpty()
+        public static void QueueIsEmpty()
         {
             Console.WriteLine("Queue is empty!");
         }
-        public void QueueIsFull()
+
+        public static void QueueIsFull()
         {
             Console.WriteLine("Queue is full!");
         }
+
         public void Engueue(T value)
         {
             queue.Add(value);
@@ -58,6 +60,7 @@ namespace Lesson_13
                 Console.WriteLine(queue.Get(i));
             }
         }
+
         public void PrintCapacity()
         {
             Console.WriteLine($"Capacity: {queue.GetCapacity()}");

@@ -10,3 +10,9 @@ C:\CSharp\Lesson_13\Lesson_13\obj\Debug\Lesson_13.pdb
 C:\CSharp\Lesson_13\Lesson_13\bin\Debug\Lesson_13.exe
 C:\CSharp\Lesson_13\Lesson_13\bin\Debug\Lesson_13.pdb
 C:\CSharp\Lesson_13\Lesson_13\obj\Debug\Lesson_13.csprojResolveAssemblyReference.cache
+D:\C\Lesson_13\Lesson_13\bin\Debug\Lesson_13.exe.config
+D:\C\Lesson_13\Lesson_13\obj\Debug\Lesson_13.exe
+D:\C\Lesson_13\Lesson_13\obj\Debug\Lesson_13.pdb
+D:\C\Lesson_13\Lesson_13\bin\Debug\Lesson_13.exe
+D:\C\Lesson_13\Lesson_13\bin\Debug\Lesson_13.pdb
+D:\C\Lesson_13\Lesson_13\obj\Debug\Lesson_13.csprojResolveAssemblyReference.cache

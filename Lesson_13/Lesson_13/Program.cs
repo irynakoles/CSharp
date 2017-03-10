@@ -25,7 +25,8 @@ namespace Lesson_13
             stack.PrintCapacity();
             stack.PrintSize();
             stack.PrintStack();
-          
+
+            Console.WriteLine(" ");
             DynamicQueue<int> queue = new DynamicQueue<int>();
 
             queue.PrintCapacity();

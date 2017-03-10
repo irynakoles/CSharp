@@ -32,22 +32,26 @@ namespace Lesson_13
             
         }
 
-        public void CapacityIncreased()
+        public static void CapacityIncreased()
         {
             Console.WriteLine("Capacity was increased!");
         }
-        public void ElementInserted()
+
+        public static  void ElementInserted()
         {
             Console.WriteLine("Element was inserted by index!");
         }
-        public void ElementRemoved()
+
+        public static void ElementRemoved()
         {
             Console.WriteLine("Element was removed!");
         }
-        public void ElementAdded()
+
+        public static void ElementAdded()
         {
             Console.WriteLine("Element was added!");
         }
+
         public void Remove(int index)
         {
             for (int i = index; i < size; i++)
