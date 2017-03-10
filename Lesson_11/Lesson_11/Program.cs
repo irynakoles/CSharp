@@ -14,16 +14,23 @@ namespace Lesson_11
             MyLinkedList<int> list = new MyLinkedList<int>();
 
             list.DeleteFirst();
-            list.Add(1);
-            list.Add(10);
-            list.Add(20);
-            list.Add(30);
+            list.AddLast(1);
+            list.AddLast(10);
+            list.AddLast(20);
+            list.AddLast(30);
+            list.AddLast(40);
+            list.AddLast(50);
+            list.AddLast(60);
             list.Print();
-            list.DeleteLast();
+            //list.AddBefore(3, 99);
+            list.AddAfter(3, 100);
+            list.Clear();
+            //list.DeleteLast();
+            //list.Print();
+            //list.DeleteLast();
+            //list.DeleteFirst();
             //list.AddFirst(40);
             //list.DeleteByValue(40);
-
-           // list.DeleteFirst();
             list.Print();
 
             Console.ReadKey();
