@@ -1,0 +1,6 @@
+C:\Users\IKolesnikova\Documents\Visual Studio 2015\Projects\ArraySorting\ArraySorting\bin\Debug\ArraySorting.exe.config
+C:\Users\IKolesnikova\Documents\Visual Studio 2015\Projects\ArraySorting\ArraySorting\obj\Debug\ArraySorting.csprojResolveAssemblyReference.cache
+C:\Users\IKolesnikova\Documents\Visual Studio 2015\Projects\ArraySorting\ArraySorting\bin\Debug\ArraySorting.exe
+C:\Users\IKolesnikova\Documents\Visual Studio 2015\Projects\ArraySorting\ArraySorting\bin\Debug\ArraySorting.pdb
+C:\Users\IKolesnikova\Documents\Visual Studio 2015\Projects\ArraySorting\ArraySorting\obj\Debug\ArraySorting.exe
+C:\Users\IKolesnikova\Documents\Visual Studio 2015\Projects\ArraySorting\ArraySorting\obj\Debug\ArraySorting.pdb
